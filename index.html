@@ -1,0 +1,227 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portfólio // Leonardo Machado</title>
+    <link rel="stylesheet" href="./assets/css/styles.css">
+    <link rel="icon" href="./assets/img/icon.png">
+</head>
+<body>
+    <header>
+    <nav data-menu="smooth">
+       <p><a href="#home">&lsaquo;LM/&rsaquo;</a></p>
+       <button data-menu="button" aria-controls="menu"></button>
+       <ul data-menu="list" id="menu">
+        <a href="#home">
+          <li>Início</li>
+        </a>
+        <a href="#sobre">
+          <li>Sobre</li>
+        </a>
+        <a href="#conhecimentos">
+          <li>Conhecimentos</li>
+        </a>
+        <a href="#cursos">
+          <li>Cursos</li>
+        </a>
+        <a href="#projetos">
+          <li>Projetos</li>
+        </a>
+      </ul>
+    </nav>
+  </header>
+    <main>
+      <section class="main" id="home">
+        <div class="main__left">
+          <h1>Meu nome é</h1>
+          <span class="main__sentence"></span>
+          <span class="main__input-cursor"></span>
+          <h1>Desenvolvedor Front-End Júnior.</h1>
+        </div>
+        <div class="main__right">
+          <img src="./assets/img/me.jpg" alt="minha foto" data-tilt class="my-photo">
+        </div>
+      </section>
+      <section class="about-me animation" id="sobre" data-anime="js-scroll">
+        <div class="about-me__photo">
+          <img src="./assets/img/me.jpg" alt="Uma selfie de Leonardo Machado" />
+        </div>
+        <div class="about-me__description">
+          <h1>Sobre</h1>
+          <h2>São Carlos-SP, Brasil</h2>
+          <p class="description-about-me" id="conhecimentos">
+            Com apenas 15 anos, decidi que queria fazer a diferença no mundo através da tecnologia, trazendo problemas da vida real para o mundo da computação, então meu primeiro passo foi cursar um curso técnico onde criei a base das minhas Hard Skills. Quando jovem me deparava com problemas em celulares de terceiros e me via muito interessado em solucionar desempenho dos smartphones e transtornos de funcionamento Sempre fui bastante curioso e entusiasta das infinitas possibilidades que um computador ou videogame me apresentavam. Criar e aprender é o que me move até hoje e, com certeza, foi o que me trouxe até aqui. 
+          </p>
+          <br>
+          <p>
+            <img class="my-knowledges" alt="HTML" src="https://raw.githubusercontent.com/devicons/devicon/master/icons/html5/html5-original.svg">
+            <img class="my-knowledges" alt="CSS" src="https://raw.githubusercontent.com/devicons/devicon/master/icons/css3/css3-original.svg">
+            <img class="my-knowledges" alt="JavaScript" src="https://raw.githubusercontent.com/devicons/devicon/master/icons/javascript/javascript-plain.svg">
+            <img class="my-knowledges" alt="React" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/react/react-original.svg" />
+            <img class="my-knowledges" alt="TypeScript" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/typescript/typescript-original.svg" />
+            <img class="my-knowledges" alt="Redux" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/redux/redux-original.svg" />
+            <img class="my-knowledges" alt="Bootstrap" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/bootstrap/bootstrap-original.svg">
+            <img class="my-knowledges" alt="Python" src="https://raw.githubusercontent.com/devicons/devicon/master/icons/python/python-original.svg">
+            <img class="my-knowledges" alt="CSharp" src="https://raw.githubusercontent.com/devicons/devicon/master/icons/csharp/csharp-original.svg">
+            <img class="my-knowledges" alt="C++" src="https://cdn-icons-png.flaticon.com/512/6132/6132222.png">
+            <img class="my-knowledges" alt="Php" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/php/php-original.svg">
+            <img class="my-knowledges" alt="MySQL" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/mysql/mysql-original.svg" />
+            </p>
+          <div class="about-me__description-buttons">
+            <a href="mailto: leonardomachadomancilha@gmail.com?subject=Leonardo, Podemos marcar um bate papo?" target="_blank">
+              <div class="about-me__description-buttons-email">
+                <img src="./assets/img/email.png" alt="meu email">
+                <p>E-mail</p>
+              </div>
+            </a>
+            <div class="main__button">
+              <a href="https://www.linkedin.com/in/leonardommachado/" target="_blank">
+                <div class="main__button-linkedin">
+                  <img src="./assets/img/linkedin.png" alt="meu perfil do linkedin">
+                  <p>LinkedIn</p>
+                </div>
+              </a>
+              <a href="https://github.com/LeonardoMancilha" target="_blank">
+                <div class="main__button-github">
+                  <img src="./assets/img/github.png" alt="meu perfil do github">
+                  <p>GitHub</p>
+                </div>
+              </a>
+            </div>
+          </div>
+        </div>
+      </section>
+      <section class="courses" id="cursos" data-anime="js-scroll">
+        <h1>Cursos</h1>
+        <div class="courses__wrapper">
+          <section class="courses__places">
+            <ul data-tab="menu">
+              <li>Origamid</li>
+            </ul>
+          </section>
+          <div class="courses__description" data-tab="content">
+            <section data-anime="show-right">
+            <h2 class="name-course">HTML e CSS</h2>
+            <p class="courses__description-local">Concluído</p>
+            <p class="courses_paragraph">Aprendi desde do básico até CSS Grid Layout, CSS Flexbox, CSS Propriedades, HTML Semântica e Layout Responsivo.</p>
+            </section>
+            <h2 class="name-course">JavaScript Completo ES6</h2>
+            <p class="courses__description-local">Em progresso</p>
+            <p class="courses_paragraph">Venho cursando o curso pela Origamid, nele aprendi a manipular o DOM, a criar funções Assíncronas, JavaScript Tooling e ES6 Modules, Webpack, npm start, npm init, classes, criação de Factory functions, Arrow Functions, Funções Callback e atualmente estou passando pela seção de Expressões Regulares e terei a última seção com Automação FrontEnd. Procuro durante o meu processo de aprendizado fazer projetos pessoais para colocar em prática tudo ensinado.</p>
+            <h2 class="name-course">CSS com SASS</h2>
+            <p class="courses__description-local">Em progresso</p>
+            <p class="courses_paragraph">Estou aprendendo a como criar variáveis, mixins, funções, loops e outras funcionalidades que vão tornar a codificação do meu CSS mais eficiente e produtiva.</p>
+            <h2 class="name-course">React Completo</h2>
+            <p class="courses__description-local">Em progresso</p>
+            <p class="courses_paragraph">Atualmente comecei a estudar o React e já criei um projeto de Criador de Tarefas. Primeiro passei por React Components e agora verei Hooks. Além de React Router, useContext, CSS Modules, PropTypes, Componentes Funcionais, Propriedade e Eventos.</p>
+            <h2 class="name-course">React com Redux</h2>
+            <p class="courses__description-local">Not started</p>
+            <p class="courses_paragraph">O curso será feito após a conclusão do curso de React. Irei aprender a como utilizar o Redux do zero para o desenvolvimento de aplicações que utilizam uma store global para gerenciamento do estado.</p>
+            <h2 class="name-course">TypeScript para Iniciantes</h2>
+            <p class="courses__description-local">Not started</p>
+            <p class="courses_paragraph">Irei fazer o curso após a conclusão do curso de JavaScript e aprenderei a manipular dados, criar interfaces, utilizar safe guards, definir o tipo correto de um dado e mais. Sabendo muito mais como o JavaScript funciona.</p>
+          </div>
+        </div>
+        </section>
+      <section class="projects" id="projetos" data-anime="js-scroll">
+        <h1>Projetos</h1>
+        <div class="projects__wrapper">
+          <section class="projects__card">
+            <a href="https://to-do-list-iota-eight-71.vercel.app/" target="_blank">
+            <img src="./assets/img/to-do-list.png" alt="Imagem do to do list  representando meu projeto número 1" class="project-img">
+            </a>
+            <h2>To do List</h2>
+            <p>
+              Meu primeiro projeto em HTML e CSS sobre um formulário de pesquisa. A partir dele eu pude evoluir bastante.
+            </p>
+            <span>Tecnologias usadas: 
+              <img class="my-knowledges" alt="HTML" src="https://raw.githubusercontent.com/devicons/devicon/master/icons/html5/html5-original.svg">
+              <img class="my-knowledges" alt="CSS" src="https://raw.githubusercontent.com/devicons/devicon/master/icons/css3/css3-original.svg">
+              <img class="my-knowledges" alt="JavaScript" src="https://raw.githubusercontent.com/devicons/devicon/master/icons/javascript/javascript-plain.svg">
+              <img class="my-knowledges" alt="React" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/react/react-original.svg" /></span>
+            <a href="https://github.com/LeonardoMancilha/To-do-list" target="_blank">
+              <div class="projects__card-button">
+                <img src="./assets/img/link.png" alt="link do repositório no github">
+                GitHub
+              </div>
+            </a>
+          </section>
+          <section class="projects__card">
+            <a href="https://gerador-de-senhas-omega.vercel.app/" target="_blank">
+            <img src="./assets/img/gerador-de-senhas.png" alt="Imagem do gerador de senhas representando meu projeto número 2" class="project-img">
+            </a>
+            <h2>Gerador de Senhas</h2>
+            <p>
+              Projeto realizado em HTML e CSS sobre uma Landing Page feito pelo FrontendMentor.
+            </p>
+            <span>Tecnologias usadas: 
+              <img class="my-knowledges" alt="HTML" src="https://raw.githubusercontent.com/devicons/devicon/master/icons/html5/html5-original.svg">
+              <img class="my-knowledges" alt="CSS" src="https://raw.githubusercontent.com/devicons/devicon/master/icons/css3/css3-original.svg">
+              <img class="my-knowledges" alt="JavaScript" src="https://raw.githubusercontent.com/devicons/devicon/master/icons/javascript/javascript-plain.svg">
+            </span>
+            <a href="https://github.com/LeonardoMancilha/Gerador-de-Senhas" target="_blank">
+              <div class="projects__card-button">
+              <img src="./assets/img/link.png" alt="link do repositório no github">
+              GitHub
+            </div>
+            </a>
+          </section>
+          <section class="projects__card">
+            <a href="https://leonardomancilha.github.io/Jogo-da-velha/" target="_blank">
+            <img src="./assets/img/joga-da-velha.png" alt="Imagem do joga da velha representando meu projeto número 3" class="project-img">
+            </a>
+            <h2>Jogo da Velha</h2>
+            <p>
+              Projeto realizado em HTML, CSS e JavaScript do modo escuro.
+            </p>
+            <span>Tecnologias usadas: 
+              <img class="my-knowledges" src="https://raw.githubusercontent.com/devicons/devicon/master/icons/html5/html5-original.svg">
+              <img class="my-knowledges" alt="CSS" src="https://raw.githubusercontent.com/devicons/devicon/master/icons/css3/css3-original.svg">
+              <img class="my-knowledges" alt="JavaScript" src="https://raw.githubusercontent.com/devicons/devicon/master/icons/javascript/javascript-plain.svg">
+            </span>
+            <a href="https://github.com/LeonardoMancilha/Jogo-da-velha" target="_blank">
+              <div class="projects__card-button">
+                <img src="./assets/img/link.png" alt="link do repositório no github">
+                GitHub
+              </div>
+            </a>
+          </section>
+          <section class="projects__card">
+            <a href="https://leonardomancilha.github.io/E-commerce/" target="_blank">
+            <img src="./assets/img/e-commerce.png" alt="Imagem do e-commerce representando meu projeto número 4" class="project-img">
+            </a>
+            <h2>E-Commerce</h2>
+            <p>
+              Projeto realizado em HTML, CSS e JavaScript de criação de tarefas.
+            </p>
+            <span>Tecnologias usadas: 
+              <img class="my-knowledges" alt="HTML" src="https://raw.githubusercontent.com/devicons/devicon/master/icons/html5/html5-original.svg">
+              <img class="my-knowledges" alt="CSS" src="https://raw.githubusercontent.com/devicons/devicon/master/icons/css3/css3-original.svg">
+              <img class="my-knowledges" alt="JavaScript" src="https://raw.githubusercontent.com/devicons/devicon/master/icons/javascript/javascript-plain.svg">
+            </span>
+            <a href="https://github.com/LeonardoMancilha/E-commerce" target="_blank">
+              <div class="projects__card-button">
+                <img src="./assets/img/link.png" alt="link do repositório no github">
+                GitHub
+              </div>
+            </a>
+          </section>
+        </div>
+      </section>
+      <p class="repository">
+          <a href="https://github.com/LeonardoMancilha?tab=repositories" target="_blank">
+            <button class="btn"><img src="https://img.icons8.com/ios-glyphs/30/000000/github.png"> Clique aqui para ver mais repositórios!</button>
+        </a>
+        </a>
+      </p>
+      <footer>
+        <p>© 2023 - Leonardo Machado</p>
+        <p>Powered by <img src="./assets/img/vector.png" alt="imagem do vector"></p>
+      </footer>
+    </main>
+    <script src="./assets/js/script.js" type="module"></script>
+    <script src="./assets/js/modules/vanilla-tilt.min.js"></script>
+</body>
+</html>
