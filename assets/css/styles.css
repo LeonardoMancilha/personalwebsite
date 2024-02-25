@@ -301,86 +301,9 @@ section h1 {
 .about-me__description-buttons-resume p, .about-me__description-buttons-resume img, .about-me__description-buttons-email p, .about-me__description-buttons-email img, .projects__card-button p, .projects__card-button img {
   padding: 9px 0 5px;
 }
-/*
-.description-about-me {
-  width: 36rem;
-}
-*/
-.courses__wrapper {
-  display: flex;
-}
-
-.courses__places {
-  width: 200px;
-  cursor: pointer;
-}
-
-.courses__places ul {
-  list-style: none;
-  font-size: 1.1rem;
-  padding: 0;
-}
-
-.courses__places ul li.active {
-  background-color: #151515;
-  border-left: 2px solid #00d2df;
-  font-weight: 600;
-}
-
-.courses__places li {
-  padding: 10px;
-  text-align: center;
-  border-left: 2px solid #272727;
-  transition: background-color 0.5s ease;
-}
-
-.courses__places ul li:hover {
-  background-color: #272727;
-}
-
-.courses__description {
-  width: 60%;
-  margin-left: 5rem;
-  position: relative;
-  line-height: 1.5rem;
-}
-
-.courses__description section {
-  display: none;
-}
-
-.courses__description section.active {
-  display: block;
-}
-
-.courses__description section.active.show-right {
-  animation: 0.5s forwards show-right;
-}
 
 .name-course {
   margin-top: 2rem;
-}
-
-.courses__description h2 {
-  font-size: 1.4rem;
-  color: #fff;
-  display: inline-block;
-}
-
-.courses__description span {
-  font-size: 0.95rem;
-  color: #fff;
-  position: absolute;
-  right: 0;
-  top: 5px;
-  font-weight: bold;
-}
-
-.courses__description-local {
-  margin: 2rem 0;
-  font-size: 0.85rem;
-  color: #00d2df !important;
-  font-weight: bold;
 }
 
 .projects__wrapper {
@@ -568,38 +491,6 @@ footer img {
   .btn {
     margin-top: 6rem;
   }
-  .courses__wrapper {
-    flex-direction: column;
-    align-items: center;
-  }
-  .courses__places {
-    width: 250px;
-  }
-  .courses__places ul li.active {
-    background-color: #151515;
-    border-left: none;
-    border-bottom: 2px solid #00d2df;
-    font-weight: 600;
-  }
-  .courses__places li {
-    border-left: none;
-    border-bottom: 2px solid #272727;
-  }
-  
-  .courses__description {
-    margin-left: 0;
-    margin-top: 2rem;
-    min-height: 46vh;
-    width: 90%;
-  }
-  .courses__description span {
-    display: block;
-    position: inherit;
-  }
-  .courses_paragraph {
-    letter-spacing: normal;
-    font-size: 1rem;
-  }
    .projects__wrapper {
     grid-template-columns: 1fr;
     justify-items: center;
@@ -628,7 +519,7 @@ footer img {
   .main .main__input-cursor {
     height: 35px;
   }
-  .main, .about-me, .courses, .projects {
+  .main, .about-me, .projects {
     padding: 6.5%;
   }
 }
